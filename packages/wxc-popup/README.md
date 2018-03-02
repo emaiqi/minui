@@ -23,10 +23,28 @@ $ min install @minui/wxc-popup
 
 | 名称                  | 描述                         |
 |----------------------|------------------------------|
-|`show`         | 【说明】显示Dailog<br>【params】void<br>【return】void        |
-|`hide`			| 【说明】隐藏Dialog<br>【params】void<br>【return】void		|
+|`show`         | 【说明】显示 `popup` <br>【params】void<br>【return】void        |
+|`hide`			| 【说明】隐藏 `popup` <br>【params】void<br>【return】void		|
+|`toggle`       | 【说明】切换 `popup` 的可见状态。<br>【params】`switch`: `Boolean`。可选。<br>【return】void|
+
+## Link
+||地址|
+|--|---|
+||popup 组件文档 <br> [https://meili.github.io/min/docs/minui/index.html#popup](https://meili.github.io/min/docs/minui/index.html#popup)<br>|
+||popup 组件源码 <br> [https://github.com/meili/minui/tree/master/packages/wxc-popup](https://github.com/meili/minui/tree/master/packages/wxc-popup)<br>|
+||MinUI 组件库 <br> [https://github.com/meili/minui](https://github.com/meili/minui) <br>|
+
+## Preview
+![popup](https://s10.mogucdn.com/mlcdn/c45406/171107_68e8eb623kc5gk73j8f6f99clfc4f_480x480.jpg_225x999.jpg)
 
 ##  ChangeLog
+
+#### v1.0.6（2018.01.09)
+- z-index 层级规范方案修改
+
+#### v1.0.3（2018.01.04）
+
+- 增加toggle方法，规范z-index层级
 
 #### v1.0.2（2017.11.02）
 
